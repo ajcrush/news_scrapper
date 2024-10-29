@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Prompt the user to enter the date
-read -p "Enter the date (DD) to read the headlines (e.g., 29): " day
+# Prompt the user to enter the day and month
+read -p "Enter the day (DD) to read the headlines (e.g., 29): " day
+read -p "Enter the month (MM) to read the headlines (e.g., 10): " month
 
-# Get the current month and year
-month=$(date +%m)
+# Get the current year
 year=$(date +%Y)
 
 # Construct the filename based on user input
