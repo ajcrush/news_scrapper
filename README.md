@@ -1,6 +1,5 @@
 # News Scraper
 
-## Project Title
 A Linux-based web scraping tool for extracting the latest news headlines from BBC News.
 
 ## Aim of the Project
